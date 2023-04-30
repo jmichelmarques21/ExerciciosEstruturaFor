@@ -18,7 +18,7 @@ namespace ExerciciosEstruturaFor {
 
             /* Exercício 02 - Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
              * Mostre quantos destes valores X estão dentro do intervalo [10,20] e quantos estão fora do intervalo, mostrando
-             * essas informações seguinto 'in' para dentro do intervalo e 'out' para fora do intervalo. */
+             * essas informações seguinto 'in' para dentro do intervalo e 'out' para fora do intervalo. 
 
             Console.Write("Quantos números você vai digitar? ");
             int n = int.Parse(Console.ReadLine());
@@ -27,14 +27,18 @@ namespace ExerciciosEstruturaFor {
             int fora = 0;
 
             for (int i = 0; i < n; i++) {
-                n = int.Parse(Console.ReadLine());
-                if (n >= 10 && n <= 20) {
+                int x = int.Parse(Console.ReadLine());
+                if (x >= 10 && x <= 20) {
                     dentro++; 
                 }
                 else {
                     fora++;
                 }
             }
+
+            Console.WriteLine("In: " + dentro);
+            Console.WriteLine("Out: " + fora); */
+
 
         }
     }
