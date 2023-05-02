@@ -60,7 +60,29 @@ namespace ExerciciosEstruturaFor {
                 double media = (a * 2 + b * 3 + c * 5) / 10;
 
                 Console.WriteLine("Média: " + media.ToString("F1", CultureInfo.InvariantCulture));
-            } */ 
+            } */
+
+
+            /* Exercício 04 - Fazer um programa para ler um número N. Depois leia N pares de números e mostre a divisão do primeiro pelo
+             * segundo. Se o denominador for igual a zero, mostrar a mensagem "Divisão impossível". */
+
+            /*Console.Write("Quantas divisões serão realizadas? ");
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < n; i++) {
+                string[] valores = Console.ReadLine().Split(' ');
+                int a = int.Parse(valores[0]);
+                int b = int.Parse(valores[1]);
+
+                if (a < 0) {
+                    Console.WriteLine("Divisão impossível.");
+                }
+                else {
+                    double divisao = (double)a / b;
+                    Console.WriteLine("Resultado: " + divisao);
+                }
+            } */
+
 
 
 
