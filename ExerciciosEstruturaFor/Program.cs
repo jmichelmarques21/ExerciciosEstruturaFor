@@ -83,6 +83,51 @@ namespace ExerciciosEstruturaFor {
                 }
             } */
 
+            /* Exercício 05 - Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N * (N-1) * (N-2) * (N-3)* .. * 1;.
+             * Lembrando que, por definição, fatorial de 0 é 1;
+             */
+
+            /* Console.Write("Digite um valor: ");
+            int n = int.Parse(Console.ReadLine());
+
+            int fatorial = 1;
+
+            for (int i = 1; i <= n; i++) {
+                fatorial = fatorial * i;
+            }
+
+            Console.WriteLine(fatorial); */
+
+            /* Exercício 06 - Ler um número inteiro N e calcular todos os seus divisores. */
+
+            /* Console.Write("Digite um número inteiro: ");
+            int n = int.Parse(Console.ReadLine());
+
+            
+            for (int i = 1; i <= n; i++) {
+                if (n % i == 0) {
+                    Console.WriteLine(i);
+                }
+            } */
+
+            /* Exercício 07 - Fazer um programa para ler um número inteiro positivo N. O programa deve então mostrar na tela N linhas,
+             * começando de 1 até N. Para cada linha, mostrar o número da linha, depois o quadrado e o cubo do valor. */
+
+            /*Console.Write("Digite um valor: ");
+            int n = int.Parse(Console.ReadLine());
+
+            if (n > 0) {
+                for (int i = 1; i <= n; i++) {
+                    Console.WriteLine(i + " " + Math.Pow(i, 2) + " " + Math.Pow(i, 3));
+                }
+            }
+            else {
+                Console.WriteLine("Número menor ou igual a zero, impossível calcular!");
+            } */
+
+
+
+
 
 
 
